@@ -65,24 +65,14 @@ make clean  # Limpiar
 
 ## Estructura del Proyecto
 
-```
-hotel/
-├── main.py           # Punto de entrada
-├── menu.py           # Menus por rol
-├── utils.py          # Login y UX
-├── reservation.py    # Validaciones y disponibilidad
-├── storage.py        # Habitaciones, algoritmos, LinkedList
-├── db.py             # Persistencia JSON
-├── handlers/
-│   ├── __init__.py   # Exports
-│   ├── reservas.py   # Reserva, Habitaciones, Checkout
-│   ├── clientes.py   # Consultar, Buscar
-│   └── reportes.py   # Ingresos, Historial, Reporte
-└── data/
-    ├── clientes.json
-    ├── reservas.json
-    └── hospedados.json
-```
+- `main.py` - Punto de entrada
+- `menu.py` - Menus por rol
+- `utils.py` - Login y UX
+- `reservation.py` - Validaciones
+- `storage.py` - Habitaciones, algoritmos
+- `db.py` - Persistencia JSON
+- `handlers/` - Logica de cada opcion del menu
+- `data/` - Archivos JSON de datos
 
 ## Conceptos del Curso
 
