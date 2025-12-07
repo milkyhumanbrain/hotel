@@ -58,6 +58,11 @@ make setup  # Crear entorno virtual
 make clean  # Limpiar
 ```
 
+**Instalar Make:**
+- **macOS:** Ya viene instalado
+- **Linux:** `sudo apt install make`
+- **Windows:** Usar [WSL](https://learn.microsoft.com/es-es/windows/wsl/install) o [Chocolatey](https://chocolatey.org/install) (`choco install make`)
+
 ## Estructura del Proyecto
 
 ```
