@@ -6,7 +6,7 @@ Sistema para gestionar reservas de hotel desde la consola con persistencia de da
 
 **Inicio de Sesion:** Escribe 'salir' para cerrar. Hay dos roles:
 - **admin** (contraseña: 1234) - Acceso completo
-- **recepcion** (contraseña: 2025) - Operaciones basicas
+- **recepcion** (contraseña: 2025) - Operaciones básicas
 
 **Menu Recepcion:**
 - Registrar Reserva
@@ -29,7 +29,7 @@ Sistema para gestionar reservas de hotel desde la consola con persistencia de da
 
 **Ver Habitaciones:** Muestra todas las habitaciones por categoria, cuales estan ocupadas, por quien y cuantos dias.
 
-**Realizar Check-out:** Seleccionas numero de habitacion y se libera.
+**Realizar Check-out:** Seleccionas número de habitacion y se libera.
 
 **Ver Historial:** Muestra operaciones con opciones de filtrar por Reservas, Check-outs, buscar por texto.
 
