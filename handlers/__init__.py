@@ -1,0 +1,3 @@
+from handlers.reservas import handle_registrar_reserva, handle_ver_habitaciones, handle_checkout
+from handlers.clientes import handle_consultar_clientes, handle_buscar_cliente
+from handlers.reportes import handle_ver_ingresos, handle_ver_historial, handle_reporte_diario, handle_salir
